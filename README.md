@@ -6,11 +6,11 @@ To run the development server, use one of the following commands:
 
 bash
 npm run dev
-# or
+or
 yarn dev
-# or
+or
 pnpm dev
-# or
+or
 bun dev
 
 Once the server is running, open http://localhost:3000 in your browser to view your application.
