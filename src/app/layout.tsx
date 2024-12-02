@@ -17,11 +17,9 @@ export default function RootLayout({
 }): JSX.Element {
   return (
     <html lang="en">
-      {/* <ThemeRegistry> */}
       <body className={inter.className}>
         <AuthProvider>{children}</AuthProvider>
       </body>
-      {/* </ThemeRegistry> */}
     </html>
   );
 }
