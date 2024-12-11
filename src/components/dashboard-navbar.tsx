@@ -9,7 +9,7 @@ interface DashboardNavbarProps {
 
 const DashboardNavbar = ({ onSidebarMobileOpen }: DashboardNavbarProps) => {
   return (
-    <nav className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 fixed w-full z-50">
+    <nav className="bg-white  border-b border-gray-200 w-full sticky top-0">
       <div className="min-h-[64px] px-4 flex items-center justify-between">
         <div className="flex items-center gap-4">
           <button
@@ -19,14 +19,13 @@ const DashboardNavbar = ({ onSidebarMobileOpen }: DashboardNavbarProps) => {
             <MenuIcon className="h-5 w-5" />
           </button>
 
-          <Link
+          {/* <Link
             href="customers"
             className="text-gray-700 dark:text-gray-200 font-semibold"
           >
             App
-          </Link>
+          </Link> */}
         </div>
-
         <div className="flex items-center">
           <AccountPopover />
         </div>

@@ -1,3 +1,11 @@
 export { default as DashboardLayout } from "./dashboard-layout";
 export { default as Scrollbar } from "./scrollbar";
 export { default as Label } from "./label";
+export { default as Loader } from "./loader";
+export { default as DashboardButtons } from "./dashboard-buttons";
+export { default as DashboardStats } from "./dashboard-stats";
+export { default as DashbaordRecentActivity } from "./dashbaord-recent-activity";
+export { default as DashboardModal } from "./dashboard-modal";
+export { default as EmployeeList } from "./employee-list";
+export { default as EmployeeListHead } from "./employee-list-head";
+export { default as EmployeeListTable } from "./employee-list-table";

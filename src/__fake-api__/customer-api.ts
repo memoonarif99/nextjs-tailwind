@@ -167,7 +167,8 @@ class CustomerApi {
       },
     ];
 
-    return Promise.resolve(customers);
+    // return Promise.resolve(customers);
+    return Promise.resolve([]);
   }
 }
 

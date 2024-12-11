@@ -103,9 +103,9 @@ const NavSection = ({ items, pathname, title, ...other }: NavSectionProps) => {
 
   return (
     <div {...other}>
-      <h2 className="text-gray-700 text-xs font-bold uppercase tracking-wide mb-2">
+      {/* <h2 className="text-gray-700 text-xs font-bold uppercase tracking-wide mb-2">
         {title}
-      </h2>
+      </h2> */}
       {renderNavItems({
         items,
         pathname,

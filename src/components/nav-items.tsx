@@ -66,9 +66,11 @@ const NavItem = ({
     <li className="py-0">
       <Link href={path as string}>
         <span
-          className={`flex w-full items-center px-2 py-3 text-left hover:bg-gray-50
+          className={`flex w-full items-center text-md px-2 py-3 text-left leading-snug rounded-md hover:bg-[#F97B231A] hover:font-[500] hover:text-orange-500 my-4 
             ${
-              active ? "font-bold text-blue-600" : "font-medium text-gray-600"
+              active
+                ? "font-[500] text-orange-500 bg-[#F97B231A]"
+                : "font-[400] text-[#99999B]"
             }`}
           style={{ paddingLeft: `${paddingLeft}px` }}
         >

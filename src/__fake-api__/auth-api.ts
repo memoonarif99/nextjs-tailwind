@@ -40,7 +40,7 @@ class AuthApi {
 
         resolve(accessToken);
       } catch (err) {
-        console.error("[Auth Api]: ", err);
+        // console.error("[Auth Api]: ", err);
         reject(new Error("Internal server error"));
       }
     });
@@ -76,7 +76,7 @@ class AuthApi {
 
         resolve(accessToken);
       } catch (err) {
-        console.error("[Auth Api]: ", err);
+        // console.error("[Auth Api]: ", err);
         reject(new Error("Internal server error"));
       }
     });
@@ -104,7 +104,7 @@ class AuthApi {
           plan: user.plan,
         });
       } catch (err) {
-        console.error("[Auth Api]: ", err);
+        // console.error("[Auth Api]: ", err);
         reject(new Error("Internal server error"));
       }
     });
